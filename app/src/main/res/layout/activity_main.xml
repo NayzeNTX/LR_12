@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10BD95"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Крестики-Нолики"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="148dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2138AE"
+        android:text="Начать игру" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#1C36B1"
+        android:text="Настройки" />
+
+</LinearLayout>
